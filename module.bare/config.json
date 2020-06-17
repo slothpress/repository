@@ -3,6 +3,6 @@
   "version": "0.0.1",
   "description": "A bare module as a starting point for your development",
   "repository": "https://github.com/slothpress/module.bare.git",
-  "author": "Ben Kremer <hallo@sixmonkey.com>"
+  "author": "Ben Kremer <hallo@sixmonkey.com>",
   "tags": "module, bare, starter, start"
 }
