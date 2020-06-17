@@ -1,0 +1,19 @@
+{
+  "name": "slothgistry",
+  "version": "1.0.0",
+  "description": "simple registry for sloth modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slothpress/repository.git"
+  },
+  "author": "slothpress",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slothpress/repository/issues"
+  },
+  "homepage": "https://github.com/slothpress/repository#readme"
+}
