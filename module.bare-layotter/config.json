@@ -1,0 +1,8 @@
+{
+  "name": "bare layotter module",
+  "version": "0.0.1",
+  "description": "A bare module with layotter functionality",
+  "repository": "https://github.com/slothpress/module.bare-layotter.git",
+  "author": "Ben Kremer <hallo@sixmonkey.com>",
+  "tags": "module, bare, starter, start, layotter, page builder"
+}
