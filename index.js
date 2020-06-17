@@ -17,7 +17,7 @@ const writeRegistry = () => {
   })
 
   fs.writeJSONSync(registry, registryData)
-  console.log('created registry.js')
+  console.log('created registry.json')
 }
 
 writeRegistry()
