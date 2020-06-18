@@ -1,10 +1,10 @@
 const fs = require('fs-extra')
 const path = require('path')
 
-const registry = 'registry.json'
+const registry = path.join(__dirname, '..', 'registry.json')
 
 const writeRegistry = () => {
-  const modulesDirectory = path.resolve('sloth_modules')
+  const modulesDirectory = path.join(__dirname, '..')
   const moduleDirectories = fs.readdirSync(modulesDirectory)
 
   const registryData = moduleDirectories.map((directory, i) => {
@@ -15,8 +15,9 @@ const writeRegistry = () => {
       return { ...configObject }
     }
   })
+  const filteredRegistry = registryData.filter(item => item)
 
-  fs.writeJSONSync(registry, registryData)
+  fs.writeJSONSync(registry, filteredRegistry)
   console.log('created registry.json')
 }
 
